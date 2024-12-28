@@ -1,0 +1,26 @@
+DisplayName = fpvbombat
+Type = ATMissile
+Power = 50
+Acceleration = 10.0
+Explosion = 10
+Flaming = false
+Sight = MissileSight 
+Delay = 50
+LockTime = 0
+ModeNum = 2
+ProximityFuseDist = 1
+ModelBullet = fpvbomb
+Sound = fpvbomb
+RidableOnly = true
+
+DamageFactor = tank, 100.0
+DamageFactor = plane, 100.5
+DamageFactor = vehicle 100.5
+DamageFactor = heli, 100.5
+DamageFactor = player, 100.5
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

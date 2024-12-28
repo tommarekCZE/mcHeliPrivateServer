@@ -1,0 +1,17 @@
+DisplayName = PKR P-1000 Vulcan
+Type = TVMissile
+Power = 4000
+Acceleration = 6.0
+Explosion = 64
+ExplosionBlock = 32
+Flaming = true
+Sight = MoveSight
+Delay = 20
+ModelBullet = pkr
+Sound = osa
+
+MaxAmmo = 16
+SuppliedNum = 1
+Item =  16, iron_ingot
+Item =  32, gunpowder
+Item =  8, redstone

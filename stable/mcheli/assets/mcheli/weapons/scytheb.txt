@@ -1,0 +1,22 @@
+DisplayName = scythebomb
+Type = Bomb
+Power = 18
+Acceleration = 1.5
+Explosion = 15
+ExplosionInWater = 15
+ExplosionBlock = 15
+Flaming = false
+Sight = None
+HeatCount = 500
+MaxHeatCount = 650
+DamageFactor = tank, 100.0, plane, 100.0, heli, 100.0, vehicle, 100.0, Player, 100.0
+Delay = 10
+Sound = prilet
+SoundVolume = 100.0
+
+ModelBullet = cbu87
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder

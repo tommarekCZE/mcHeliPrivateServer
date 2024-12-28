@@ -1,0 +1,30 @@
+DisplayName = 3BF2
+Type = Rocket
+Power = 80
+Explosion = 25
+ExplosionBlock = 25
+Acceleration = 4.0
+SoundVolume = 1.0
+Sound = tulp
+Accuracy = 5.0
+ModelBullet = 155mm
+Flaming = false
+Sight = None
+Delay = 50
+Gravity = -0.02
+ReloadTime = 20
+Recoil = 2
+ModeNum = 1
+Round = 6
+
+
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.2
+
+DisableSmoke = True
+
+MaxAmmo = 12
+SuppliedNum = 12
+Item =  8, iron_ingot
+Item =  8, gunpowder

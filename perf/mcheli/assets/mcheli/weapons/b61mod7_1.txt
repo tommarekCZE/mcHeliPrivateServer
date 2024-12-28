@@ -1,0 +1,39 @@
+DisplayName = B61 MOD7 Nuclear Bomb [340KT SURFACE]
+Type = bomb
+;Power = 100000
+;DamageFactor = tank, 10000.0
+;DamageFactor = plane, 30000.0
+;DamageFactor = vehicle 20000.0
+;DamageFactor = heli, 30000.0
+
+;Explosion = 4
+;ExplosionBlock = 3
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 30
+Sound = bomb_snd
+DisableSmoke = true
+ModeNum = 2
+ModelBullet = b61
+;400kt
+nukeyield = 160
+gravity = -0.01
+;bomb rewrite
+Acceleration = 1
+Explosion = 15
+;Explosive mass	? kg
+;Power = 500000
+;ExplosionBlock = 2
+;ExplosionInWater = 0
+;DamageFactor = tank, 10000.0
+;DamageFactor = plane, 30000.0
+;DamageFactor = vehicle 20000.0
+;DamageFactor = heli, 30000.0
+displaymortardistance = true
+ReloadTime = 300
+Round = 1
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 4, hbm:tile.det_nuke
+Item = 1, hbm:tile.bomb_multi

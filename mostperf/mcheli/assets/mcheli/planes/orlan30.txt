@@ -1,0 +1,32 @@
+﻿DisplayName = Orlan-30
+MaxHp = 100
+Speed = 0.7
+Sound = shahed
+CameraPosition = -0.02, -1.35, 0.2729
+ThrottleUpDown = 1.0
+MaxFuel         = 10000
+FuelConsumption = 0.1
+Stealth = 0.0
+RotorSpeed = 100.0
+HUD = plane
+ParticlesScale = 0.2
+ThirdPersonDist = 100
+AddSeat =  -0.02, -1.35, 0.2729
+HideEntity = true
+
+Category = M.A
+
+AddRecipe = " I ",  " I ",  " F ",  I,iron_ingot, F,furnace
+
+AddWeapon = kab500marker, 0.00, -0.2, 0.4
+AddWeapon = fab500umpk, 0.00, -0.2, 0.4
+
+
+AddPartRotor =   -0.0002, 0.2355, 1.9476,   0, 2, 1
+
+AddBlade = 1, 32, -0.0002, 0.2355, 1.9476,  0.0, 0.0, 1.0,
+
+
+BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5
+
+By Acronix

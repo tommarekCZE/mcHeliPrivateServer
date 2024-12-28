@@ -1,0 +1,22 @@
+DisplayName = 9m124[ATGM]
+Type = TVMissile
+Power = 400
+ModelBullet = 9M124
+Acceleration = 10.0
+Explosion = 2
+ExplosionBlock = 2
+Flaming = false
+Sight=None
+Delay = 150
+SoundPitch = 1
+SoundVolume = 20
+Sound = t80udfire
+Piercing =3
+HeatCount = 3
+MaxHeatCount = 150
+Group = MainGun
+
+MaxAmmo = 10
+SuppliedNum = 10
+Item =  3, iron_ingot
+Item =  2, gunpowder

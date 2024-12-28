@@ -1,0 +1,36 @@
+DisplayName = SkyRanger R70
+MaxHp = 25
+Speed = 0.5
+CameraPosition = 0.00,0.35, 0.50, true
+SmallUAV = true
+Sound = radicon_heli
+ThrottleUpDown = 5.0
+ParticlesScale = 0.2
+MaxFuel         = 90
+FuelConsumption = 0.05
+EnableNightVision = true
+
+InventorySize = 9
+
+HUD = heli
+
+; M = Military(åRópã@).  Q = Drone(ñ≥êlçqãÛã@)
+Category = M.Q
+
+AddSeat =  0.0, 0.0, 0.0
+
+AddRotor = 1, 0, 0.61,  0.00, -0.61,  0,-1, 0
+AddRotor = 1, 0, 0.61,  0.00,  0.61,  0,-1, 0
+AddRotor = 1, 0,-0.61,  0.00,  0.61,  0,-1, 0
+AddRotor = 1, 0,-0.61,  0.00, -0.61,  0,-1, 0
+ 
+AddPartWeapon = none, true,  true,  false, 0.00, 0.00, 0.00
+AddPartWeaponChild = false, true, 0.11, 0.04, 0.07, 0.0
+
+AddWeapon = targeting_pod_mob,     0.0, 0.3, 1.4,   0.0, 0.0,  true, 2
+AddWeapon = targeting_pod_pv10s,   0.0, 0.3, 1.4,   0.0, 0.0
+AddWeapon = targeting_pod_block,   0.0, 0.3, 1.4,   0.0, 0.0
+
+BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5
+
+AddRecipe = "SBS",  "PRI",  " B ",  I, iron_ingot,  R, redstone,  S, stick,  P, glass_pane,  B, Iron_Bars

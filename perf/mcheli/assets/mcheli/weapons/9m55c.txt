@@ -1,0 +1,28 @@
+DisplayName = 9m55c
+Type = Rocket
+Power = 100
+Explosion = 20
+ExplosionBlock = 20
+Acceleration = 4.0
+SoundVolume = 8.0
+Sound = smr
+ModelBullet = 9m528
+Flaming = true
+Accuracy = 0.3
+Sight = None
+Delay = 7
+Recoil = 1.0
+Gravity = -0.03
+DamageFactor = plane, 10
+DamageFactor = helicopter, 10
+ReloadTime = 100
+DisableSmoke = true
+
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.2
+
+MaxAmmo = 16
+SuppliedNum =16
+Item =  4, iron_ingot
+Item =  4, gunpowder

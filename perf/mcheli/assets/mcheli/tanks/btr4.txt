@@ -1,0 +1,93 @@
+DisplayName = BTR-4 Bucephalus
+ItemID = 191921
+MaxHp = 250
+Speed = 0.8
+Sound = vehicle_run
+ThrottleUpDown = 10.0
+MinRotationPitch = -50
+MaxRotationPitch =  20
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = 0.0
+DamageFactor = 0.8
+EnableNightVision = true
+DefaultFreelook = true
+CameraRotationSpeed = 40
+FlareType = 10
+SubmergedDamageHeight = 4
+OnGroundPitchFactor = 3.0
+OnGroundRollFactor  = 3.0
+HideEntity = false
+ 
+WeightType = Tank
+
+MobilityYawOnGround = 3.0
+
+AddTexture = btr4bronya
+
+HUD = mbt_hud, mbt_hud
+
+AddSeat =  0.6337,  1.2013, 3.9303
+AddGunnerSeat = 0.5858, 1.1564, -0.3648, -0.1173, 3.8715, 0.0856, false, -30, 2, false
+
+AddSeat =  -0.6304,  1.2513, 3.9303
+AddSeat =   0.5858,  1.2064, -1.7830
+AddSeat =   0.5858,  1.2064, -2.7408
+AddSeat =   0.5858,  1.2064, -3.8489
+AddSeat =  -0.9399,  1.2064, -3.8034
+AddSeat =  -0.9399,  1.2064, -2.8443
+AddSeat =  -0.9399,  1.2064, -1.7177
+AddSeat =  -0.9399,  1.2064, -0.8710
+AddSeat =  0.8838, 2.8772, -2.6401
+AddSeat =  0.8838, 2.8772, -4.2359
+AddSeat =  -1.4921, 2.8772, -4.2359
+AddSeat =  -1.4921, 2.8772, -2.6709
+AddSeat =  -0.7895, 2.8249, 3.6861
+AddSeat =  0.8659, 2.8249, 3.6861
+
+MotionFactor = 0.9
+
+AddPartWheel     =   1.5770,  0.4931,  3.5501, 30
+AddPartWheel     =   -1.6390,  0.4883,  3.5022, 40
+AddPartWheel     =   1.5324,  0.4656,  1.6537, 30
+AddPartWheel     =   -1.6248,  0.4606,  1.6001, 40
+AddPartWheel     =   1.4014,  0.4656,  -0.8207
+AddPartWheel     =   -1.6248,  0.4606,  -0.8758
+AddPartWheel     =   1.4014,  0.4656,  -2.8337
+AddPartWheel     =   -1.7650,  0.4606,  -2.8337
+
+AddPartCanopy   =  1.3946, 2.0659, 5.0265,  0.0, 1, 0.0,  -37
+AddPartCanopy   = -1.3127, 2.0659, 5.0265,  0.0, 1, 0.0,  37
+
+AddPartHatch =   0.8254, 1.9661, -4.6451, 0.0, 1.0, 0, -90
+AddPartHatch =   -1.3285, 1.9661, -4.6451, 0.0, 1.0, 0, 90
+
+AddWeapon = kba-2_30mmAPDS,  -0.0558, 3.7109, 0.0303,  0.0, 0.0, false,2, 0,-360,360, -15, 15
+AddWeapon = kba-2_30mmHEI,   -0.0558, 3.7109, 0.0303,  0.0, 0.0, false,2, 0,-360,360, -15, 15
+AddWeapon = barier,          -1.1785, 3.6970, 0.4318,  0.0, 0.0, false,2, 0,-360,360, -15, 15
+AddWeapon = 7.62mm,          0.1606, 3.7046, -0.0198,  0.0, 0.0, false,2, 0,-360,360, -15, 15
+AddWeapon = ags-17,          0.8800, 3.8448, -0.1968,  0.0, 0.0, false,2, 0,-360,360, -15, 15
+
+AddPartWeapon = kba-2_30mmAPDS / kba-2_30mmHEI, true, true, false,  -0.1399, 2.8620, -0.7579, 0
+AddPartWeaponChild = false, true, -0.0627, 3.6480, -0.3015, 0.1
+
+AddPartSteeringWheel = 0.6684, 1.9902, 4.6276, 0, 1, 0,   90
+
+EnableBack = true
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 9
+ArmorMaxDamage = 250 
+ArmorDamageFactor = 1.00
+
+MaxFuel         = 1200
+FuelConsumption = 2.0
+
+BoundingBox =  0.40, 2.64, 0.0,  3.10, 2.01
+BoundingBox =  0.40, 0.79, -1.75, 3.10, 2.01
+BoundingBox =  0.40, 0.79, 2.26, 3.10, 2.01
+
+StepHeight = 1.5
+
+AddRecipe = "TBT",  "TXT",  "IDI",  T, tnt_minecart, B, bow, X, dispenser, I, iron_ingot, D, diamond

@@ -1,0 +1,16 @@
+DisplayName = 9M317
+Type = AAMissile
+Power = 140
+Acceleration = 3
+Explosion = 4
+Flaming = false
+Sight = MissileSight
+ModelBullet = 9M317
+Delay = 100
+LockTime = 30
+ProximityFuseDist = 1
+Sound = buklaunch
+
+MaxAmmo = 4
+SuppliedNum = 1
+Item =  1, mcheli:Buk9M317

@@ -1,0 +1,25 @@
+DisplayName = AGM-65 Flaming[TV]
+Type = TVMissile
+Power = 40
+Acceleration = 4.0
+Explosion = 15
+ExplosionBlock = 7
+Flaming = true
+Sight = MoveSight
+Delay = 60
+ModelBullet = agm-65
+Sound = missile_2_snd
+DisableSmoke = true
+
+MaxAmmo = 6
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone
+
+;ProximityFuseDist = 30
+
+;Bomblet = 12
+;BombletSTime = 15
+;BombletDiff = 1.1
+;ModelBomblet = cbc

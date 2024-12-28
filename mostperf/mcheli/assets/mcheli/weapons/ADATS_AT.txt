@@ -1,0 +1,22 @@
+DisplayName = ADATS-AT
+Type = ATMissile
+Power = 90
+Acceleration = 6.0
+Explosion = 4
+Flaming = false
+Sight = MissileSight 
+Delay = 50
+LockTime = 6
+ModeNum = 2
+ProximityFuseDist = 1
+ModelBullet = ADATS_AT
+Sound = tow_fire
+RidableOnly = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

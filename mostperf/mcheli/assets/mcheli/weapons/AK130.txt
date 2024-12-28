@@ -1,0 +1,24 @@
+DisplayName = AKA-130 130mm
+Type = MachineGun2
+Power = 150
+ModelBullet = 130mm
+Acceleration = 3.0
+Explosion = 8
+ExplosionBlock = 4
+Flaming = false
+Sight = MoveSight
+Delay = 5
+SoundPitch = 0.6
+SoundVolume = 20
+Sound = gunk
+Accuracy = 3.0
+HeatCount = 18
+MaxHeatCount = 500
+ReloadTime = 240
+Round = 50
+;SetCartridge = cartridge, 0.1,  180, 0, 5.0, -0.04, 0.40
+
+MaxAmmo = 1000
+SuppliedNum = 100
+Item =  6, iron_ingot
+Item =  4, gunpowder

@@ -1,0 +1,19 @@
+DisplayName = fueltank
+Type = bomb
+Power = 20
+Explosion = 4
+ExplosionBlock = 4
+Acceleration = 3.0
+Sight = None
+Delay = 120
+ReloadTime = 120
+Round = 1
+SoundVolume = 10.0
+Sound = cannon_1_snd
+Accuracy = 1.5
+ModelBullet = fueltank
+
+MaxAmmo = 10
+SuppliedNum = 5
+Item =  1, iron_ingot
+Item =  1, gunpowder

@@ -1,0 +1,22 @@
+DisplayName = X-47M2
+Type = Rocket
+Power = 500
+Explosion = 17
+ExplosionBlock = 15
+Acceleration = 1.9
+SoundVolume = 4.0
+Sound = kinjal
+Accuracy = 0.0
+ModelBullet = kh47m2
+Flaming = true
+Sight = None
+Delay = 1000
+Gravity = -0.01
+DamageFactor = plane, 3.0
+DamageFactor = helicopter, 3.0
+DisableSmoke = true
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  3, gunpowder

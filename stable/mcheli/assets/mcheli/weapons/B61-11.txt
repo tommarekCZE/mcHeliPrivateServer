@@ -1,0 +1,41 @@
+﻿DisplayName = B61 Nuclear Bomb [40KT SURFACE]
+Type = Rocket
+;Power = 100000
+;DamageFactor = tank, 10000.0
+;DamageFactor = plane, 30000.0
+;DamageFactor = vehicle 20000.0
+;DamageFactor = heli, 30000.0
+Acceleration = 3.0
+;Explosion = 4
+;ExplosionBlock = 3
+ExplosionInWater = 0
+displaymortardistance = true
+Flaming = false
+Sight = None
+Delay = 40
+Sound = bomb_snd
+DisableSmoke = true
+ModeNum = 2
+ModelBullet = b61
+;400kt
+nukeyield = 120
+piercing = 50
+;bomb rewrite
+Acceleration = 2
+Explosion = 15
+;Explosive mass	? kg
+;Power = 500000
+;ExplosionBlock = 2
+;ExplosionInWater = 0
+;DamageFactor = tank, 10000.0
+;DamageFactor = plane, 30000.0
+;DamageFactor = vehicle 20000.0
+;DamageFactor = heli, 30000.0
+gravity = -0.01
+ReloadTime = 300
+Round = 2
+MaxAmmo = 2
+SuppliedNum = 1
+Item = 4, hbm:tile.det_nuke
+Item = 1, hbm:tile.bomb_multi
+

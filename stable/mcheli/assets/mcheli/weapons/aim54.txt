@@ -1,0 +1,24 @@
+DisplayName = AIM-54C Phoenix
+Type = MachineGun1
+Power = 1000
+Acceleration = 22
+Explosion = 12
+Flaming = false
+Sight = MissileSight
+Delay = 15
+
+ProximityFuseDist = 8
+ModelBullet = aim54
+Sound = missile_9_snd
+SoundVolume = 15
+
+DamageFactor = tank, 10.0
+DamageFactor = plane, 30.5
+DamageFactor = vehicle 10.5
+DamageFactor = heli, 30.5
+DamageFactor = player,50.0
+
+MaxAmmo = 6
+SuppliedNum = 2
+Item =  1, hbm:item.missile_assembly
+Item =  1, hbm:item.ammo_nuke,4

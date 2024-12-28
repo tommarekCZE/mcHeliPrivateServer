@@ -1,0 +1,24 @@
+DisplayName = 3BM42[APFSDS-T]
+Type = MachineGun2
+Power = 200
+ModelBullet = 3bm42
+Acceleration = 8.0
+Explosion = 1
+ExplosionBlock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 150
+ReloadTime = 100
+Round = 1
+SoundVolume = 10.0
+ModeNum = 1
+SoundPitch = 1
+SoundVolume = 20
+Sound = t80udfire
+Gravity = -0.00238
+Group = MainGun
+
+MaxAmmo = 10
+SuppliedNum = 10
+Item =  3, iron_ingot
+Item =  2, gunpowder

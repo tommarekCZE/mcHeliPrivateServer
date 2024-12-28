@@ -1,0 +1,27 @@
+DisplayName = FPVBOMB
+Type = Rocket
+Power = 50
+Acceleration = 10.00
+Explosion = 5
+ExplosionBlock = 5
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 1
+Sound = bomb_snd
+ModelBullet = fpvbomb
+Gravity = -0.01
+
+ReloadTime = 500
+Round = 1
+
+DamageFactor = tank, 100.0
+DamageFactor = plane, 100.5
+DamageFactor = vehicle 100.5
+DamageFactor = heli, 100.5
+DamageFactor = player, 100.5
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  4, gunpowder

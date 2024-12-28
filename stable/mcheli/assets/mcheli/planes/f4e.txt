@@ -1,0 +1,124 @@
+DisplayName = F-4E "Phantom"
+AddDisplayName = zh_CN, F-4E“鬼怪”
+ItemID = 28734
+MaxHp = 800
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+EnableGunnerMode = true
+Speed = 2.00
+FlareType = 3
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 4100
+FuelConsumption = 1.0
+AutoPilotRot = 0
+CameraZoom = 6
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+onGroundPitch = -2.0
+ThirdPersonDist = 16
+ThrottleUpDown = 0.45
+MobilityYaw = 0.7
+MobilityRoll = 0.5
+MobilityPitch = 0.7
+VariableSweepWing = true
+Sound = f110_snd
+SweepWingSpeed = 1.0
+HUD = plane, plane_gnr
+AddPartSteeringWheel = 0, 2.78, -16.09, 1, 0, 0.0,   -20
+
+AddPartwing =   0.0,  1.4206,  -10.2176,  1,0, 0, -20
+AddSeat       = 0.00,  1.98, -1.20  
+AddGunnerSeat = 0.00,  2.33, -2.63, 0.0, 0.31, -1.9862, true
+
+AddPartCanopy =  0.00, 3.6589, -2.072,  1,0,0,  -50
+AddPartCanopy =  0.00, 3.686, -3.8231,  1,0,0,  -50
+entityheight = 0.8
+entitywidth = 0.8
+
+AddPartLG    =  -0.00, 1.14, 0.212,  -1,0,0,  -100
+AddPartLG    =  -0.2971, 1.4405,  0.0,   0,0,1,  95
+AddPartLG =  -3.47,1.2975,  -8.0,  0,0,1, 83
+AddPartLG =  3.47, 1.2975,  -8.0,  0,0,1, -83
+AddPartLG =  -1.4862, 1.2095, -8.0,  0,0,1, 90
+AddPartLG =  1.4862, 1.2095, -8.0,  0,0,1, -90
+
+AddPartWeaponMissile = aim7_f,   false,  false,  false,    0.66, 1.33, -0.71
+AddPartWeaponMissile = aim7_f,   false,  false,  false,   -0.66, 1.33, -0.71
+AddPartWeaponMissile = aim7_f,   false,  false,  false,     1.33, 0.98, -7.6
+AddPartWeaponMissile = aim7_f,   false,  false,  false,   -1.33, 0.98, -7.6
+AddPartWeaponMissile = AIM-9L,   false,  false,  false,     2.0, 0.91, -3.91
+AddPartWeaponMissile = AIM-9L,   false,  false,  false,   -2.0, 0.91, -3.91
+AddPartWeaponMissile = AIM-9L,   false,  false,  false,    3.0, 0.91, -3.91
+AddPartWeaponMissile = AIM-9L,   false,  false,  false,   -3.0, 0.91, -3.91
+
+
+
+AddPartWeaponMissile = gbu104,   false,  false,  false,    4.3, 0.4, -7
+AddPartWeaponMissile = gbu104,   false,  false,  false,   -4.3, 0.4, -7
+AddPartWeaponMissile = gbu104,   false,  false,  false,     0.56, 0.7, -7
+AddPartWeaponMissile = gbu104,   false,  false,  false,   -0.56, 0.7, -7
+AddPartWeaponMissile = cbu-100,   false,  false,  false,    3.8, 1, -7
+AddPartWeaponMissile = cbu-100,   false,  false,  false,   -3.8, 1, -7
+AddPartWeaponMissile = cbu-100,   false,  false,  false,     3.8, 1, -7
+AddPartWeaponMissile = cbu-100,   false,  false,  false,   -3.8, 1, -7
+AddPartWeaponMissile = agm62I2,   false,  false,  false,    4.9, 0.8, -7
+AddPartWeaponMissile = agm62I2,   false,  false,  false,   -4.9, 0.8, -7
+AddPartWeaponMissile = b61mod7_1,   false,  false,  false,     0, 0.2, -7
+
+
+
+AddWeapon = targeting_pod_block, -0,  1, -2,   0.0,  0.0
+AddWeapon = targeting_pod_ph100s, -0,  1, -2,   0.0,  0.0
+AddWeapon = m61a1, 0.00, 0.92, 3.15
+AddWeapon =  aim7_f,    0.66, 1.33, -0.71,   0.0, 0.0 , true, 2
+AddWeapon =  aim7_f,     -0.66, 1.33, -0.71,   0.0, 0.0 , true, 2
+AddWeapon =  aim7_f,       1.33, 0.98, -7.6,   0.0, 0.0,true, 2
+AddWeapon =  aim7_f,   -1.33, 0.98, -7.6,  0.0, 0.0,true, 2
+AddWeapon =  AIM-9L,    2.0, 0.91, -3.91,   0.0, 0.0 , true, 2
+AddWeapon =  AIM-9L,    -2.0, 0.91, -3.91,   0.0, 0.0 , true, 2
+AddWeapon =  AIM-9L,    3.0, 0.91, -3.91,   0.0, 0.0 , true, 2
+AddWeapon =  AIM-9L,    -3.0, 0.91, -3.91,   0.0, 0.0 , true, 2
+AddWeapon =  zuni24,     2.0, 0.5, -5,   0.0, 0.0,true, 2
+AddWeapon =  zuni24,     -2.0, 0.5, -5,   0.0, 0.0,true, 2
+AddWeapon =  zuni24,     3.0, 0.5, -5,   1.4, 0.0,true, 2
+AddWeapon =  zuni24,     -3.0, 0.5, -5,   -1.4, 0.0,true, 2
+AddWeapon =  zuni24,     2.5, 0.2, -5,   1.4, 0.0,true, 2
+AddWeapon =  zuni24,     -2.5, 0.2, -5,   -1.4, 0.0,true, 2
+AddWeapon =  cbu-100,    3.8, 1, -7,   0.0, 0.0 , true,  2
+AddWeapon =  cbu-100,    -3.8, 1, -7,   0.0, 0.0 , true,  2
+AddWeapon =  cbu-100,     3.8, 1, -7,   0.0, 0.0 , true,  2
+AddWeapon =  cbu-100,   -3.8, 1, -7,  0.0, 0.0 , true,  2
+AddWeapon =  agm62I2,    4.9, 0.8, -7,   0.0, 0.0 , true, 2
+AddWeapon =  agm62I2,    -4.9, 0.8, -7,   0.0, 0.0 , true, 2
+AddWeapon =  gbu104,    4.3, 0.4, -7,   0.0, 0.0 , true, 2, 0,-90,90, -5,90
+AddWeapon =  gbu104,    -4.3, 0.4, -7,   0.0, 0.0 , true, 2, 0,-90,90, -5,90
+AddWeapon =  gbu104,     0.56, 0.7, -7,   0.0, 0.0,true, 2, 0,-90,90, -5,90
+AddWeapon =  gbu104,   -0.56, 0.7, -7,  0.0, 0.0,true, 2, 0,-90,90, -5,90
+AddWeapon =  b61mod7_1,    0, 0.2, -7,   0.0, 0.0,true, 2
+
+
+BoundingBox =  0.00, 2.00, 2.60,  2.0, 1.0
+BoundingBox =  0.00, 2.20, 0.60,  2.0, 1.2
+BoundingBox =  0.00, 2.20, -1.40,  2.0, 2.5
+BoundingBox =  0.00, 2.20, -3.80,  3.0, 2.5
+BoundingBox =  0.00, 2.20, -7.00,  3.5, 2.5
+BoundingBox =  0.00, 2.20, -10.50,  3.0, 2.5
+BoundingBox =  0.00, 2.2, -13.5,  2.5, 2.5,1.5
+BoundingBox =  0.00, 3.0, -13.0,  0.5, 2.0
+BoundingBox =  0.00, 3.2, -13.5,  0.5, 2.2
+BoundingBox =  0.00, 3.4, -14.0,  0.5, 2.4
+BoundingBox =  0.00, 3.6, -14.5,  0.5, 2.6
+BoundingBox =  0.00, 3.8, -15.0,  0.5, 2.8
+BoundingBox =  0.00, 3.8, -15.5,  0.5, 2.8
+BoundingBox =  0.00, 3.8, -16.0,  0.5, 2.8
+BoundingBox =  0.00, 3.6, -16.5,  0.5, 3.5
+BoundingBox =  0.00, 3.60, -17.0,  0.5, 3.5
+BoundingBox =  0.00, 3.6, -17.5,  0.5, 3.5
+
+BoundingBox = -4.0, 1.40, -9.00,  4.5, 0.2
+BoundingBox = 4.0, 1.40, -9.00,  4.5, 0.2
+
+BoundingBox = -1.5, 1.8, -16.50,  2.5, 0.3,1.5
+BoundingBox = 1.5, 1.8, -16.50,  2.5, 0.3,1.5

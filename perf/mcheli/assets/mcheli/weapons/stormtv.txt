@@ -1,0 +1,25 @@
+DisplayName = stormtv
+Type = TVMissile
+Power = 500
+Acceleration = 1.2
+Explosion = 20
+ExplosionBlock = 20
+Flaming = true
+Sight = MoveSight
+Delay = 15
+ReloadTime = 300
+SoundVolume = 3
+Sound = rackket
+ModelBullet = storm
+DisableSmoke = true
+
+DamageFactor = Player, 5.0
+DamageFactor = heli, 5.0
+DamageFactor = tank, 5.0
+DamageFactor = plane, 5.0
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  4, iron_ingot
+Item =  20, tnt
+Item =  4, redstone

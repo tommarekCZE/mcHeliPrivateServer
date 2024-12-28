@@ -1,0 +1,18 @@
+DisplayName = kh25at
+Type = ATMissile
+Power = 600
+Acceleration = 4.5
+Explosion = 5
+Flaming = true
+Sight = MoveSight
+Delay = 10
+Round = 2
+ReloadTime = 10
+LockTime = 2
+Sound = khsh
+
+MaxAmmo = 8
+SuppliedNum = 4
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

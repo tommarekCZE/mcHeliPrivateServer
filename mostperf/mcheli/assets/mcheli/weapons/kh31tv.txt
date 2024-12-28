@@ -1,0 +1,20 @@
+DisplayName = kh31tv
+Type = TVmissile
+Power = 70
+Acceleration = 2.0
+Explosion = 18
+ExplosionBlock = 18
+Sight = MoveSight
+Delay = 10
+ModeNum = 2
+ModelBullet = kh31tv
+Sound = khsh
+DisableSmoke = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

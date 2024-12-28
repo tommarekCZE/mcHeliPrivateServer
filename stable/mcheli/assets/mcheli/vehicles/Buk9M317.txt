@@ -1,0 +1,14 @@
+DisplayName = Buk9M317
+AddDisplayName = Buk9M317
+MaxHp = 40
+HideEntity = true
+MinRotationPitch = 0
+MaxRotationPitch = 0
+DamageFactor = 1
+CameraPosition = 0.0, 2.00, 0.0
+CanRide = false
+ThirdPersonDist = 12
+
+AddSeat = 0.00,  1.0, 0.00
+
+AddRecipe = "IXI",  "IX ",  "I  ",  X, iron_ingot,  I, gunpowder

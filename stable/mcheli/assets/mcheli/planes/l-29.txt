@@ -1,0 +1,87 @@
+DisplayName = Aero L-29 "Delfin"
+MaxHp =100
+EnableNightVision = flase
+EnableEntityRadar = flase
+EnableEjectionSeat = true
+Speed = 1.0
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel= 1000
+Sound = l29_snd
+FuelConsumption = 2.5
+ThirdPersonDist = 16
+SmoothShading = true
+ParticlesScale = 0.7
+EntityWidth  = 0.8
+EntityHeight = 0.8
+
+; M = Military(軍用機).  T = Trainer(練習機)
+Category = M.T
+
+AddSeat = 0, 0.5, 0
+AddSeat = 0, 0.7, -1.1786
+
+HUD = civilian_aircraft, civilian_aircraft
+
+AddTexture = l-29_2
+AddTexture = l-29_3
+AddTexture = l-29_4
+AddTexture = l-29_5
+AddTexture = l-29_6
+AddTexture = l-29_7
+AddTexture = l-29_8
+AddTexture = l-29_9
+AddTexture = l-29_10
+AddTexture = l-29_11
+AddTexture = l-29_12
+AddTexture = l-29_13
+AddTexture = l-29_14
+AddTexture = l-29_15
+AddTexture = l-29_16
+AddTexture = l-29_17
+AddTexture = l-29_18
+AddTexture = l-29_19
+AddTexture = l-29_20
+AddTexture = l-29_21
+AddTexture = l-29_22
+
+AddPartLGRev   =  1.8034, 0.8953, -2.7593, -0.25, 0.23,-1, -92
+AddPartLGRev   = -1.8034, 0.8953, -2.7593, -0.25,-0.23, 1, -92
+
+AddPartLGRev   =  1.9511, 0.8466, -2.3520, -0.05,-0.1,-1, -95
+AddPartLGRev   = -1.9511, 0.8466, -2.3520, -0.05, 0.1, 1, -95
+
+AddPartLGRev   =  0.6509, 0.7085, -1.9832,  0,-0.02, 1, -100
+AddPartLGRev   = -0.6509, 0.7085, -1.9832,  0, 0.02,-1, -100
+
+AddPartLGRev   =  0.0, 0.5395, 1.1322,  1,0,0,  110
+
+AddPartLGRev   =  0.0, 0.4616, 1.0508,  1,0,0,  165
+AddPartLGHatch =  0.0, 0.5372, 2.0268,  1,0,0, -110
+
+AddPartSteeringWheel =  0.00, 0.7293,  0.3753,   0,0,1, -15
+AddPartSteeringWheel =  0.00, 0.8521, -0.7813,   0,0,1, -15
+
+AddPartCanopy = -0.3688, 1.3574, 0.3074, 0,-0.15, 1, 75
+AddPartSlideCanopy = 0, 0.1, -0.7
+AddPartCanopy = 0, 0, 0, 0, 0, 0, 0
+AddPartCanopy = -0.3688, 1.3574, 0.3074, 0,-0.15, 1, 75
+AddPartSlideCanopy = 0, 0.1, -0.7
+
+BoundingBox =  0.00,  1.1565,  1.5958,  1.115, 0.7457
+BoundingBox =  0.00,  1.1565,  0.4808,  1.115, 1.379
+BoundingBox =  0.00,  1.1565, -0.6342,  1.115, 1.379
+BoundingBox =  0.00,  1.1565, -1.7492,  1.115, 1.379
+
+BoundingBox =  0.00,  1.1565, -2.8642,  1.115, 1.379
+
+BoundingBox =  0.00,  1.1565, -3.9792,  1.115, 1.379
+BoundingBox =  0.00,  1.1565, -5.0942,  1.115, 1.379
+BoundingBox =  0.00,  1.1565, -6.2092,  1.115, 1.379
+BoundingBox =  0.00,  1.1565, -7.3242,  1.115, 1.379
+
+BoundingBox =  0.00,  0.9679, -3.0964,  2.850, 0.5
+BoundingBox =  3.8695,  0.9679, -2.9964,  1.6780, 0.5
+BoundingBox =  2.1915,  0.9679, -2.9964,  1.6780, 0.5
+BoundingBox = -3.8695,  0.9679, -2.9964,  1.6780, 0.5
+BoundingBox = -2.1915,  0.9679, -2.9964,  1.6780, 0.5

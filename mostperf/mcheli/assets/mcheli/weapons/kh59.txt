@@ -1,0 +1,19 @@
+DisplayName = kh59
+Type = ATMissile
+Power = 70
+Acceleration = 1.5
+Explosion = 15
+Sight = MoveSight
+Delay = 220
+ModeNum = 2
+ModelBullet = kh59
+Sound = khsh
+DisableSmoke = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

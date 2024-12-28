@@ -1,0 +1,21 @@
+DisplayName = FAB-500
+Type = Bomb
+Power = 120
+Acceleration = 0.30
+Explosion = 15
+ExplosionBlock = 15
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 4
+Sound = bomb_snd
+ModelBullet = fab500
+Gravity = -0.01
+
+ReloadTime = 500
+Round = 8
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  2, iron_ingot
+Item =  4, gunpowder

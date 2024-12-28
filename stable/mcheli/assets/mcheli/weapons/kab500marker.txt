@@ -1,0 +1,16 @@
+DisplayName = kab500marker
+Type = MkRocket
+Power = 20
+Acceleration = 10.0
+Explosion = 15
+Flaming = false
+ModelBullet = kab500
+Sight = MoveSight
+Delay = 2000
+Sound = rocket_snd
+DisableSmoke = true
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  1, iron_ingot
+Item =  1, gunpowder

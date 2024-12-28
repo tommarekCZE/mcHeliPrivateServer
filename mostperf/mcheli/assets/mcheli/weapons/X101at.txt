@@ -1,0 +1,19 @@
+DisplayName = X-101at
+Type = ATmissile
+Power = 800
+Acceleration = 1.5
+Explosion = 15
+Sight = MoveSight
+Delay = 220
+ModeNum = 2
+ModelBullet = x101at
+Sound = rackket
+DisableSmoke = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 6
+SuppliedNum = 6
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

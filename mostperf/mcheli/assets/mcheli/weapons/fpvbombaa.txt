@@ -1,0 +1,19 @@
+DisplayName = fpvbombaa
+Type = AAMissile
+Power = 160
+Acceleration = 15
+Explosion = 15
+Flaming = true
+Sight = MissileSight
+Delay = 1
+ReloadTime = 20
+Round = 1
+ModelBullet = fpvbomb
+LockTime = 0
+Sound = fpvbomb
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

@@ -1,0 +1,33 @@
+DisplayName = 3m14 "ROCKET"
+Type = Rocket
+Power = 1000
+Acceleration = 5.5
+Flaming = false
+Sight = rocket
+Gravity =  -0.010
+Delay = 100
+SoundVolume = 4.5
+Accuracy = 0.1
+Explosion = 30
+ExplosionBlock = 14
+Round = 4
+ReloadTime = 250
+ModelBullet = 3m14r
+Group = Rocket
+SoundVolume = 3
+SoundPitch = 1.0
+SoundDelay = 2
+Sound = klbr
+DisplayMortarDistance = true
+Piercing  = 2
+RigidityTime = 10
+RidableOnly = false
+DisableSmoke = true
+
+
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  2, redstone

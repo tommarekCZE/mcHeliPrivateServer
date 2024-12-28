@@ -1,0 +1,20 @@
+DisplayName = Aster30
+Type = AAMissile
+Power = 160
+Acceleration = 15
+Explosion = 15
+Flaming = true
+Sight = MissileSight
+Delay = 3
+ReloadTime = 20
+Round = 6
+ModelBullet = aim120
+LockTime = 3
+ProximityFuseDist = 1
+Sound = nasa
+
+MaxAmmo = 6
+SuppliedNum = 6
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

@@ -1,0 +1,33 @@
+﻿DisplayName = supercum
+MaxHp = 100
+Speed = 0.7
+Sound = shahed
+CameraPosition = 0.00, -0.2, 0.4
+ThrottleUpDown = 1.0
+MaxFuel         = 10000
+FuelConsumption = 0.1
+Stealth = 0.0
+RotorSpeed = 100.0
+HUD = plane
+ParticlesScale = 0.2
+ThirdPersonDist = 100
+AddSeat =  0.0, -1.35, -0.0 
+HideEntity = true
+
+Category = M.A
+
+AddRecipe = " I ",  " I ",  " F ",  I,iron_ingot, F,furnace
+
+
+AddPartRotor =   -0.0233, 0.0712, 0.6999,   0, 2, 1
+
+AddWeapon = kab500marker, 0.00, -0.2, 0.4
+AddWeapon = fab500umpk, 0.00, -0.2, 0.4
+
+AddBlade = 1, 32, -0.0233, 0.0712, 0.6999,  0.0, 0.0, 1.0,
+
+
+BoundingBox =  0.0, 0.0, 0.0,  1.5, 1.5
+
+By Acronix
+

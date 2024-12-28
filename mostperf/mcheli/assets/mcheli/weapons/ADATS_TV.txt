@@ -1,0 +1,19 @@
+DisplayName = ADATS_TV
+Type = TVMissile
+Power = 90
+Acceleration = 5.0
+Explosion = 15
+Flaming = false
+Sight = MoveSight
+Delay = 50
+ModeNum = 2
+ModelBullet = ADATS_TV
+Sound = tow_fire
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

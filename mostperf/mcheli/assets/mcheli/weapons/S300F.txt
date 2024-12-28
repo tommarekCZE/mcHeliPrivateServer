@@ -1,0 +1,20 @@
+DisplayName = 5B55RM [S-300F]
+Type = AAMissile
+Power = 750
+Acceleration = 4.5
+Explosion = 10
+Flaming = true
+Sight = MissileSight
+Delay = 20
+LockTime = 50
+ModelBullet = sa2missile
+Sound = osa
+
+SoundDelay = 3
+SoundPitch = 0.7
+
+MaxAmmo = 8
+SuppliedNum = 1
+Item =  4, iron_ingot
+Item =  4, gunpowder
+Item =  4, redstone

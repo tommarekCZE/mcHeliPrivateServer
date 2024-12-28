@@ -1,0 +1,27 @@
+﻿DisplayName = kord
+AddDisplayName = КОРД
+ItemID = 30033
+MaxHp = 20
+RotationPitchMin = -30
+RotationPitchMax =  25
+DamageFactor = 0.8
+CameraZoom = 1
+CameraPosition = 0.0,  1.225, 0.0, 
+
+Category = M.A
+
+HUD = vehicle
+
+AddSeat =  0, -0.2617,-1.9
+
+AddPart		 = true, true, true, 0,   0.00, 0.00, 0.00
+AddChildPart = true,true,true,  0,   0.00, 1.15, -0.09
+AddChildPart = true,true,true,  2,   0.00, 1.15, -0.09, 0.4
+
+AddTurretWeapon =  kord127, 0, 0.7669, 1.6115, 0.0, -1.0,   true,1, 0,-360,360, -75,10
+AddPartWeapon = kord127, false, true, true, 0.0064, 0.6161, 0.5782, 0 
+AddPartWeaponChild = false, true, 0.00, 1.36, -0.09,0.0
+AddPartWeaponChild = false, true, 0.00, 1.15, -0.09, 0.5
+
+
+AddRecipe = "IIF",  "DDD",  "XXX",  X, Iron_Block, I, Iron_Ingot, D, Dispenser, F, Flint_and_Steel

@@ -1,0 +1,31 @@
+DisplayName = 81mm Mortar
+Type = MachineGun1
+Power = 48
+ModelBullet = bullet76mm
+Explosion = 4
+ExplosionBlock = 2
+Acceleration = 4.0
+Sight = None
+Delay = 30
+Round = 45
+SoundVolume = 6
+Sound = mortar
+Accuracy = 2
+BulletColor = 255, 255, 100, 100
+Gravity = -0.06
+
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.25
+
+
+AddMuzzleFlash      =           2.1,   1.05,        2,  220,254,219,104
+AddMuzzleFlash      =           2.0,   1.00,        1,  220,254,219,184
+AddMuzzleFlashSmoke   =             3.2,     10,    6.0,  3.0,       25,  220,160,140,120
+AddMuzzleFlashSmoke   =             2.2,      5,    6.0,  4.0,       35,  200,190,170,150
+FixCameraPitch = true
+
+MaxAmmo = 57
+SuppliedNum = 19
+Item =  3, iron_ingot
+Item =  3, gunpowder

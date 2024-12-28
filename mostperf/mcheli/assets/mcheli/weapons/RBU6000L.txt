@@ -1,0 +1,19 @@
+DisplayName = RBU6000
+Type = Rocket
+Power = 42
+ModelBullet = hydra70
+Acceleration = 5.0
+Explosion = 2
+Flaming = false
+Sight = MoveSight
+Delay = 3
+ReloadTime = 110
+Round = 17
+Sound = smerch
+Gravity = -0.03
+Accuracy = 5.0
+
+MaxAmmo = 13
+SuppliedNum = 13
+Item =  8, iron_ingot
+Item =  7, gunpowder

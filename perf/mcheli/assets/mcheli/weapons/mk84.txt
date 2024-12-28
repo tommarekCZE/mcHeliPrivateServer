@@ -1,0 +1,21 @@
+DisplayName = mk84
+Type = Bomb
+Power = 60
+Acceleration = 0.10
+Explosion =  20
+ExplosionBlock = 20
+ExplosionInWater = 0
+Flaming = false
+Sight = None
+Delay = 20
+Sound = bomb_snd
+ModelBullet = mk84
+Gravity = -0.01
+
+ReloadTime = 400
+Round = 2
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  2, iron_ingot
+Item =  4, gunpowder

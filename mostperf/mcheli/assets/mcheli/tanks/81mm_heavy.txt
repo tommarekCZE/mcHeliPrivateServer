@@ -1,0 +1,44 @@
+DisplayName = 81mm Heavy Mortar
+AddDisplayName = ru_RU, 81мм Тяжёлый Миномёт
+ItemID = 30181
+MaxHp = 50
+Sound = none
+Speed = 0.00
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -87
+MaxRotationPitch = -45
+MobilityRoll = -15
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 5
+CameraRotationSpeed = 50
+EnableEntityRadar = false
+MaxFuel = 0
+FuelConsumption = 3.0
+StepHeight = 1.5
+CameraPosition = 1.06, 1.55, -0.41
+HideEntity = true
+EnableBack = true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+ThirdPersonDist = 15
+DefaultFreelook = true
+
+WeightType = Tank
+WeightedCenterZ = 0
+MotionFactor = 0.9
+AddGunnerSeat = 0, 1.6, -0.2, 0.00,  1.6, -0.2, false, -90, 40, true
+
+HUD = gunner
+
+AddPartWeapon= 81mm_mortar_heavy, false,  true,  false,  0.00, -0.2, 0.00
+AddPartWeaponChild= false, true, 0,-0.2,-0, 0.5
+
+AddTurretWeapon = 81mm_mortar_heavy, 0, 2.3, 1.29,   0.0, -1.0,   true,1, 0,-360,360, -87 ,-45
+AddWeapon = 81mm_mortar_heavy, 0, 2.3, 1.29,   0.0, -1.0,   true,1, 0,-360,360, -87 ,-45
+
+BoundingBox =  0.0, 1.5, 0.0,  2.0, 1.0
+
+AddRecipe = "I I",  "D D",  "III",  I, iron_ingot, D, dispenser

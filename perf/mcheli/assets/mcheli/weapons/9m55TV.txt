@@ -1,0 +1,28 @@
+DisplayName = 9m55c
+Type = TVMissile
+Power = 100
+Explosion = 20
+ExplosionBlock = 20
+Acceleration = 4.0
+SoundVolume = 8.0
+Sound = smerch
+Accuracy = 5.0
+ModelBullet = 9m55c
+Flaming = true
+Sight = None
+ModelBullet = 9m55c
+Delay = 6
+Gravity = -0.02
+DamageFactor = plane, 10
+DamageFactor = helicopter, 10
+ReloadTime = 100
+DisableSmoke = true
+
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.2
+
+MaxAmmo = 6
+SuppliedNum = 2
+Item =  4, iron_ingot
+Item =  4, gunpowder

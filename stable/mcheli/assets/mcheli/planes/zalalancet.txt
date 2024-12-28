@@ -1,0 +1,44 @@
+﻿DisplayName = LANCET
+MaxHp = 1
+Speed = 1.0
+Sound = shahed
+CameraPosition = -0.0377, 0.3995, 1.5082
+ThrottleUpDown = 0.8
+MaxFuel         = 5000
+FuelConsumption = 0.1
+Stealth = 0.0
+RotorSpeed = 1000.0
+HUD = plane
+AutoPilotRot = 1000
+ParticlesScale = 0.2
+ThirdPersonDist = 400
+AddSeat =  -0.0377, 0.3995, 1.5082
+HideEntity = true
+EnableVtol = true
+VtolYaw = 0.1
+VtolPitch = 0.1
+
+; M = Military(軍用機).  Q = Drone(無人航空機)
+Category = M.Q
+
+AddRecipe = " I ",  " I ",  " F ",  I,iron_ingot, F,furnace
+
+BoundingBox =  -0.0701, 0.6970, 2.6987,  1.5, 1.5
+
+HUD = plane
+
+AddPartRotor =   -0.00, 0.4387, -1.4021,   0, 2, 1
+AddBlade = 1, 120,  -0.00, 0.4387, -1.4021,   0,0,-1
+
+AddPartCamera = -0.0377, 0.3995, 1.5082
+AddRecipe = " II",  "RXI",  " II",  X, iron_block, I, iron_ingot, R, redstone_block
+
+BoundingBox =  0.0, 1.6, -1.0,  1.6, 1.4
+BoundingBox =  0.0, 1.6, -3.0,  1.6, 1.4
+BoundingBox =  0.0, 1.6, -5.0,  1.6, 1.4
+BoundingBox = -2.0, 1.2, -3.0,  1.5, 0.6
+BoundingBox =  2.0, 1.2, -3.0,  1.5, 0.6
+BoundingBox = -4.0, 1.2, -3.0,  1.5, 0.6
+BoundingBox =  4.0, 1.2, -3.0,  1.5, 0.6
+
+

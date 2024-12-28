@@ -1,0 +1,22 @@
+DisplayName = GBU-12 (TV)
+Type = TVMissile
+Power = 32
+Acceleration = 1.7
+Explosion = 15
+ExplosionBlock = 5
+Sight = MoveSight
+Delay = 30
+Round = 2
+ReloadTime = 140
+SoundVolume = 3
+SoundPitch = 0.1
+Sound = bomb_snd
+ModelBullet = gbu-12
+Gravity = -0.01
+DisableSmoke = true
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  4, iron_ingot
+Item =  4, gunpowder
+Item =  4, redstone

@@ -1,0 +1,21 @@
+DisplayName = FAB-500AT
+Type = ATMissile
+Power = 120
+Acceleration = 1.5
+Explosion = 15
+ExplosionBlock = 15
+Sight = MoveSight
+Delay = 4
+LockTime = 2
+ModeNum = 2
+ModelBullet = fab500at
+Sound = bomb_snd
+DisableSmoke = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 8
+SuppliedNum = 8
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

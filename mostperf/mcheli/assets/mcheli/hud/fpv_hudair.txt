@@ -1,0 +1,37 @@
+Color = 0xFF28d448
+Call = uav_fs
+
+DrawTexture = fpv_hudair, -375, -190,  750,375,  0,0,1024,1024, 0
+
+If = inventory > 0
+	Color = 0xCF1FFF1F
+	DrawString = 120, -80, "Inventory [ %d ]", INVENTORY
+Endif
+
+Color = #c0c0c0
+DrawLine =   70,  67,   -70,  67
+Color = reloading==0? #c0c0c0: #ff0000
+If = reloading==1
+DrawString = -90, 45, "%.2fsec",    RELOAD_SEC
+EndIf
+Color = #ff0000
+DrawRect = -90,-40, 2, 80
+Color = #ff0000
+DrawRect = -90, 40, 2, -80*reload_time
+If = reloading==0
+	Color = #c0c0c0
+	DrawRect = -90,-40, 2, 80
+EndIf
+
+DrawCenteredString = -26, 68, "%s",  WPN_AMMO
+DrawCenteredString =   0, 68, "/",   WPN_AMMO
+DrawCenteredString =  26, 68, "%s",  WPN_RM_AMMO
+
+DrawCenteredString = 0, 57, "%s",  WPN_NAME
+
+If = is_heat_wpn==1
+	Color = #c0c0c0
+	DrawRect = -20, 77, 41, 2
+	Color = #000000
+	DrawRect = -20, 77, 41*wpn_heat, 2
+EndIf

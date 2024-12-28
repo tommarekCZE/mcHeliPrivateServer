@@ -1,0 +1,16 @@
+DisplayName = R-360 Neptun
+Type = TVMissile
+Power = 400
+Acceleration = 4.0
+Explosion = 9
+Flaming = false
+Sight = MoveSight
+Delay = 10
+ModelBullet = neptun
+Sound = missile_2_snd
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  1, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

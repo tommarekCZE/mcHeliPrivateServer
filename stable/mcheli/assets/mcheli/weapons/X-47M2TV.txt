@@ -1,0 +1,20 @@
+DisplayName = X-47M2TV
+Type = TVMissile
+Power = 800
+Acceleration = 1.5
+Explosion = 30
+Sight = MoveSight
+Delay = 50
+ReloadTime = 500
+ModeNum = 2
+ModelBullet = kh47m2
+Sound = rackket
+DisableSmoke = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

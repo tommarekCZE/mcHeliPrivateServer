@@ -1,0 +1,19 @@
+DisplayName = X-22TV
+Type = TVMissile
+Power = 800
+Acceleration = 1.5
+Explosion = 25
+Sight = MoveSight
+Delay = 220
+ModeNum = 2
+ModelBullet = x22tv
+Sound = khshka
+DisableSmoke = true
+
+DamageFactor = tank, 2.0
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

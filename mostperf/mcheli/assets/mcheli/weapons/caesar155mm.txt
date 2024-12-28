@@ -1,0 +1,30 @@
+DisplayName = caesar155mm
+Type = Rocket
+Power = 80
+Explosion = 17
+ExplosionBlock = 14
+Acceleration = 4.0
+SoundVolume = 1.0
+Sound = 155mm
+Accuracy = 5.0
+ModelBullet = 155mm
+Flaming = false
+Sight = None
+Delay = 240
+Gravity = -0.02
+ReloadTime = 50
+Recoil = 5
+ModeNum = 1
+Round = 1
+
+
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.2
+
+DisableSmoke = True
+
+MaxAmmo = 12
+SuppliedNum = 12
+Item =  8, iron_ingot
+Item =  8, gunpowder

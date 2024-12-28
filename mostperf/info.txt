@@ -1,0 +1,1 @@
+Tenhle balíček dodá největší výkon avšak může být nestabilní.

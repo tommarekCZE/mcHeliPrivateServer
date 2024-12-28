@@ -1,0 +1,36 @@
+DisplayName = 9m218
+Type = Rocket
+Power = 20
+Acceleration = 7.0
+Flaming = false
+Sight = None
+Gravity = -0.03
+Delay = 2
+SoundVolume = 0.6
+SoundPitch = 1.0
+Accuracy = 0.3
+Explosion = 5
+ExplosionBlock = 5
+Round = 40
+ReloadTime = 1000
+ModelBullet = 9m22
+Group = Rocket
+DisableSmoke = true
+
+
+;ProximityFuseDist = 30
+
+Bomblet = 12
+BombletSTime = 15
+BombletDiff = 1.1
+ModelBomblet = cbc
+
+Sound = fir
+DisplayMortarDistance = true
+FixCameraPitch = true
+CameraRotationSpeedPitch = 0.1
+
+MaxAmmo = 40
+SuppliedNum = 10
+Item =  5, iron_ingot
+Item =  5, gunpowder

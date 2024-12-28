@@ -1,0 +1,24 @@
+DisplayName = AGM-62 MK1 Walleye
+Type = TVMissile
+Power = 2000
+Acceleration = 2
+Explosion = 20
+Sight = MoveSight
+Delay = 20
+ModeNum = 2
+ModelBullet = mk62I
+Sound = bomb_snd
+DisableSmoke = true
+soundvolume = 10
+DamageFactor = tank, 40.0
+DamageFactor = plane, 15.5
+DamageFactor = vehicle ,15.5
+DamageFactor = heli, 15.5
+DamageFactor = player, 30.0
+
+gravity = -0.001
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  4, hbm:item.ammo_nuke,5
+Item =  2, hbm:item.circuit,5
+Item =  2, hbm:item.mp_stability_10_flat

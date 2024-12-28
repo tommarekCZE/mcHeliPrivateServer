@@ -1,0 +1,17 @@
+DisplayName = Zuni MPSM
+Type = Rocket
+Power = 50
+Acceleration = 4.0
+Flaming = false
+Sound = missile_2_snd
+Sight = MoveSight
+Delay = 4
+Bomblet = 180
+BombletSTime = 15
+BombletDiff = 1.5
+Gravity = -0.01
+ModelBullet = hr
+displaymortardistance = true
+MaxAmmo = 14
+SuppliedNum = 7
+Item =  14, hbm:item.ammo_rocket, 5

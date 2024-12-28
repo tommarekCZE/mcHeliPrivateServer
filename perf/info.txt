@@ -1,0 +1,1 @@
+Tenhle balíček dodá větší výkon než stabilní ale může způsobit pád hry.
