@@ -1,0 +1,3 @@
+mostperf,(Doporučeno) Nejvíce výkonu, avšak můžou se vyskytnout potíže.
+perf,Větší výkon než stabilní verze. Avšak může nečekaně spadnout hra
+stable,Nejstabilnější balíček.
